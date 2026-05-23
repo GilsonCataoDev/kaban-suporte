@@ -1,25 +1,16 @@
-# Kanban Suporte
+# Kaban Suporte
 
-Quadro de atendimento para uma operacao de suporte B2B. O projeto simula uma fila de tickets com etapas de triagem, atendimento, espera pelo cliente e resolucao.
+Quadro simples para organizar tickets de suporte. A tela separa os chamados por etapa e permite mover cada card conforme o atendimento avanca.
 
-## Funcionalidades
+## Recursos
 
-- Busca por numero do ticket, cliente ou assunto.
+- Busca por ticket, cliente ou assunto.
 - Filtro por prioridade.
-- Movimento de tickets entre colunas.
-- Contadores por coluna.
-- Indicador de tickets criticos ainda abertos.
-- Tags, responsavel e prazo de SLA em cada card.
+- Tickets separados por coluna.
+- Botoes para avancar ou voltar um chamado.
+- Contador por etapa e resumo de SLAs criticos.
 
-## O que este projeto mostra
-
-- Estado mutavel com React para atualizar o status dos tickets.
-- Uso de tipos para controlar status e prioridade.
-- Renderizacao de listas agrupadas por coluna.
-- Componentizacao de cards, estatisticas e filtros.
-- Interface responsiva para uma ferramenta de operacao.
-
-## Stack
+## Tecnologias
 
 - React
 - TypeScript
@@ -27,16 +18,16 @@ Quadro de atendimento para uma operacao de suporte B2B. O projeto simula uma fil
 - CSS
 - Lucide React
 
-## Como rodar
+## Rodando localmente
 
 ```bash
 npm install
 npm run dev
 ```
 
-## Possiveis melhorias
+## Proximos passos
 
-- Adicionar drag and drop.
-- Persistir os tickets em uma API.
+- Trocar os botoes por drag and drop.
 - Criar tela de detalhe do ticket.
-- Adicionar testes para movimentacao entre colunas.
+- Salvar alteracoes em uma API.
+- Adicionar testes para movimentacao dos cards.
